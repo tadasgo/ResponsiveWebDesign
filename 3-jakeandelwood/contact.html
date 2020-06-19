@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jake&Elwood</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/2f01e658fb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <header class="header master-grid">
+    <div class="header__content">
+      <a href="index.html" class="header__link">
+        <img src="./img/logo.png" alt="logo" class="header__logo" />
+      </a>
+
+      <button aria-label="Toggle navigation" class="nav-toggle"><span class="hamburger"></span></button>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">home</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">about us</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__link current-page">contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="template master-grid">
+
+    <h1 class="template__title">Contact.</h1>
+    <p class="template__subtitle">Let us know how we can help you and we’ll get to your place the following day to
+      discuss the deal.</p>
+
+    <img src="./img/contact.jpg" alt="A bunch of mailboxes" class="template__img">
+
+    <div class="template__text-secondary">
+      <h2 class="section__title">Getting in touch with us</h2>
+      <p>You can either use the form or send us an email. We'll get back in touch with you as soon as possible!</p>
+    </div>
+
+    <div class="template__text">
+      <form action="#" method="POST" class="contact-form">
+        <label class="contact-form__fname" for="fname">First Name</label>
+        <input class="contact-form__fname" type="text" id="fname" name="fname">
+
+        <label class="contact-form__email" for="email">E-mail</label>
+        <input class="contact-form__email" type="text" id="email" name="email">
+
+        <label class="contact-form__message" for="message">Message</label>
+        <textarea class="contact-form__message" name="message" id="message"></textarea>
+
+        <button class="btn btn--primary btn--form">Send</button>
+      </form>
+    </div>
+
+  </main>
+
+  <footer class="footer master-grid">
+    <div class="footer__main">
+      <img src="./img/logo.png" alt="logo" class="footer__logo" />
+      <p class="footer__body">Two brothers from Chicago that are just trying to use their superpowers and helping others
+        with their SEO, SEM, and Content Marketing needs.</p>
+      <p class="footer__fineprint">© Jake&Elwood 2019</p>
+    </div>
+
+    <ul class="social-list">
+      <li class="social-list__item"><a href="https://www.facebook.com" class="social-list__link"><i
+            class="fab fa-facebook-square"></i></a>
+      </li>
+      <li class="social-list__item"><a href="https://www.twitter.com" class="social-list__link"><i
+            class="fab fa-twitter"></i></a></li>
+      <li class="social-list__item"><a href="https://www.instagram.com" class="social-list__link"><i
+            class="fab fa-instagram"></i></a></li>
+    </ul>
+  </footer>
+
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
