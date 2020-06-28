@@ -8,7 +8,7 @@
 
 - CSS grid
 - Testing out the power of SCSS
-- Putting the skills I learn to practice one more time
+- Putting the skills I learned to practice one more time - repetition is key
 
 
 
