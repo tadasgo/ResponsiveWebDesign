@@ -1,7 +1,0 @@
-@function fontSize($name) {
-	@return map-get($font-size, $name);
-}
-
-@function color($name) {
-	@return map-get($color, $name);
-}
